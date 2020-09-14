@@ -1,11 +1,11 @@
-#include <C:\Users\Mario\Desktop\DLN Projekt\remote_funk\ESP8266TelegramBOT.h>
-#define BOT_TOKEN "AAH3dr3OGQ7665wkoMN25LiPOjKQ5nliyGY"
+#include <...\ESP8266TelegramBOT.h>
+#define BOT_TOKEN "xxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 uint32_t lastTime;
 TelegramBOT bot(BOT_TOKEN, "ESP8266_electricity_bot", "ESP8266_electricity_bot");
 
-char ssid[] = "Vodafone-C0A4";
-char pwd[] = "7777111177771111";
+char ssid[] = "xxxxxxxxxxxxxx";
+char pwd[] = "xxxxxxxxxxxxxxxx";
 
 int codes_A[] = {};
 int codes_B[] = {};
